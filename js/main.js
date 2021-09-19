@@ -1,10 +1,10 @@
 function openNavBar() {
-  document.getElementById("mynavBar").style.width = "250px";
+  document.getElementById("mySidebar").style.width = "250px";
   document.getElementById("overlay").style.display = "block";
 };
 
 function closeNavBar() {
-  document.getElementById("mynavBar").style.width = "0";
+  document.getElementById("mySidebar").style.width = "0";
   document.getElementById("overlay").style.display = "none";
 };
 

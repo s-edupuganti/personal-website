@@ -38,7 +38,7 @@ body {
   animation: typingOutCode 1.5s steps(30, end), blinkIcon .4s step-end infinite;
 }
 
-.navBar {
+.sidebar {
   height: 100%;
   width: 0;
   position: fixed;
@@ -51,7 +51,7 @@ body {
   padding-top: 60px;
 }
 
-.navBar a {
+.sidebar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -60,7 +60,7 @@ body {
   transition: 0.3s;
 }
 
-.navBar a:hover {
+.sidebar a:hover {
   transition: 0.5s;
   color: #3a475e;
 }
@@ -378,6 +378,8 @@ body {
   box-shadow: 0 5px 10px rgb(0 0 0 / 0.4);
   border-radius: 2%;
 }
+
+
 
 @keyframes typingOutCode {
   from {
