@@ -15,6 +15,17 @@ body {
   background-color: rgba(255, 255, 255, 0.61);
 }
 
+.external {
+  text-decoration: none;
+  color: #DD5E89;
+}
+
+/* .external:hover{
+  transition: 0.5s;
+  transform: scale(1.5);
+} */
+
+
 /* .test {
     position: relative;
   } */
