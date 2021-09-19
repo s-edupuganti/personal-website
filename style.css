@@ -235,8 +235,8 @@
 .techInfo {
   /* margin-left: 50%; */
   position: absolute;
-  top: 18.76%;
-  left: 7%;
+  top: 175px;
+  left: 105px;
   /* top: 10%;
   left: 10%; */
   /* margin-top: 9%; */
@@ -253,12 +253,18 @@
   /* margin-right: 7%; */
 }
 
+.projPara{
+  position: absolute;
+  top: 20%;
+  color: white;
+}
+
 
 .serviceProj {
   /* margin-left: 50%; */
   position: absolute;
-  top: 18.76%;
-  left: 7%;
+  top: 175px;
+  left: 105px;
   /* top: 10%;
   left: 10%; */
   /* margin-top: 9%; */
@@ -278,8 +284,8 @@
 .techInterest {
   /* margin-left: 50%; */
   position: absolute;
-  top: 70%;
-  left: 7%;
+  top: 670px;
+  left: 105px;
   /* top: 10%;
   left: 10%; */
   /* margin-top: 9%; */
@@ -340,6 +346,30 @@
   /* margin-right: 7%; */
 }
 
+.projDesc {
+  /* margin-left: 50%; */
+  position: absolute;
+  top: 34%;
+  left: 48%;
+  /* top: 10%;
+  left: 10%; */
+  /* margin-top: 9%; */
+  background-color:#3a475e;
+  width: 600px;
+  height: 200px;
+  border-radius: 2%;
+  /* border: 5px solid #E4758D; */
+  /* padding: 5px; */
+  /* margin: 20px;  */
+
+  box-shadow: 0 5px 10px rgb(0 0 0 / 0.4);
+
+
+  /* margin-right: 7%; */
+}
+
+
+
 .aboutPic>img {
   border-radius: 2%;
   align-items: center;
@@ -375,24 +405,16 @@
 
 }
 
-.projShow {
-  /* display: flex;
-  justify-content: space-evenly;
-  border: 10px solid white;
-  position: fixed;
-  top: 25%;
-  left: 7%;
-  right: 7%;
-  overflow-y: scroll; */
-  /* width: 70%; */
 
-  /* left: 10%; */
-}
 
 .resume {
 
-  margin-left: 52%;
-  margin-top: 9%;
+  /* margin-left: 52%;
+  margin-top: 9%; */
+
+  position: absolute;
+  top: 170px;
+  left: 830px;
 
   /* float:right; */
 
@@ -460,7 +482,7 @@
 
   #service2 {
     position: absolute;
-    top: 65%;
+    top: 630px;
 
   }
 
@@ -470,6 +492,39 @@
 
   #pic2 {
     margin-left: 2%;
+  }
+
+  .proj1 {
+    position: absolute;
+    top: 25%;
+    left: 13%;
+
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.4);
+
+    border-radius: 2%;
+
+
+  }
+
+  .corner {
+    position: absolute;
+    left: 95%;
+
+  }
+
+  #secProj {
+    left: 11%;
+    top: 85%;
+  }
+
+  .proj2 {
+    position: absolute;
+    top: 75%;
+    left: 45%;
+
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0.4);
+
+    border-radius: 2%;
   }
 
 
