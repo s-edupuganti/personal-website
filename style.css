@@ -1,4 +1,4 @@
-/* body::-webkit-scrollbar {
+body::-webkit-scrollbar {
   display: none;
 }
 
@@ -7,12 +7,11 @@ body {
   scrollbar-width: none;
   font-family: monospace, sans-serif;
   background-color: #293241;
-   W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
-} */
+}
 
-
-.dark-mode {
-  background-color: rgba(255, 255, 255, 0.61);
+.light-mode {
+  background-color: #C9DAEA;
+  color: black;
 }
 
 .external {
@@ -20,28 +19,12 @@ body {
   color: #DD5E89;
 }
 
-/* .external:hover{
-  transition: 0.5s;
-  transform: scale(1.5);
-} */
-
-
-/* .test {
-    position: relative;
-  } */
-
 .heading h1 {
-  /* position: fixed; */
-  /* position: relative; */
-  /* position: fixed; */
   font-size: 60px;
   background: linear-gradient(to right, #dd5e89, #f7bb97);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: monospace;
-  /* overflow: hidden; */
-  /* overflow:visible */
-  /* overflow-x: scroll; */
   border-right: .15em solid #dd5e89;
   white-space: nowrap;
   letter-spacing: .15em;
@@ -55,7 +38,7 @@ body {
   animation: typingOutCode 1.5s steps(30, end), blinkIcon .4s step-end infinite;
 }
 
-.sidenav {
+.navBar {
   height: 100%;
   width: 0;
   position: fixed;
@@ -68,7 +51,7 @@ body {
   padding-top: 60px;
 }
 
-.sidenav a {
+.navBar a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -77,18 +60,12 @@ body {
   transition: 0.3s;
 }
 
-.sidenav a:hover {
+.navBar a:hover {
   transition: 0.5s;
   color: #3a475e;
 }
 
 #landing .heading {
-  /* left: 0; */
-  /* margin-top: -100px; */
-  /* position: absolute;
-  text-align: center;
-  top: 50%;
-  left: 22.5%; */
   position: fixed;
   top: 50%;
   left: 50%;
@@ -111,9 +88,9 @@ body {
   position: fixed;
   left: 50%;
   transform: translate(-50%, -50%);
-  animation: fadeInAnimation ease 5s;
+  animation: fadeInAnimation ease 3s;
   opacity: 0;
-  animation-delay: 2.5s;
+  animation-delay: 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -127,9 +104,9 @@ body {
 #landing .fa-moon {
   font-size: 25px;
   color: #F1A494;
-  animation: fadeInAnimation ease 5s;
+  animation: fadeInAnimation ease 3s;
   opacity: 0;
-  animation-delay: 2.5s;
+  animation-delay: 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -182,17 +159,17 @@ body {
 
 #landing .fa-bars {
   font-size: 25px;
-  color: white;
-  animation: fadeInAnimation ease 5s;
+  color: #F1A494;
+  animation: fadeInAnimation ease 3s;
   opacity: 0;
-  animation-delay: 2.5s;
+  animation-delay: 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 
 #notlanding .fa-bars {
   font-size: 25px;
-  color: white;
+  color: #F1A494;
 }
 
 .fa-bars:hover {
@@ -212,26 +189,17 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 1;
   animation: fadeInAnimation 0.5s;
-  /* overflow: none; */
 }
 
 .techInfo {
-  /* margin-left: 50%; */
   position: absolute;
   top: 175px;
   left: 105px;
-  /* top: 10%;
-  left: 10%; */
-  /* margin-top: 9%; */
   background-color: #3a475e;
   width: 650px;
   height: 400px;
   border-radius: 2%;
-  /* border: 5px solid #E4758D; */
-  /* padding: 5px; */
-  /* margin: 20px;  */
   box-shadow: 0 5px 10px rgb(0 0 0 / 0.4);
-  /* margin-right: 7%; */
 }
 
 .projPara {
@@ -241,109 +209,64 @@ body {
 }
 
 .serviceProj {
-  /* margin-left: 50%; */
   position: absolute;
   top: 175px;
   left: 105px;
-  /* top: 10%;
-  left: 10%; */
-  /* margin-top: 9%; */
   background-color: #3a475e;
   width: 1390px;
   height: 400px;
   border-radius: 2%;
-  /* border: 5px solid #E4758D; */
-  /* padding: 5px; */
-  /* margin: 20px;  */
   box-shadow: 0 5px 10px rgb(0 0 0 / 0.4);
-  /* margin-right: 7%; */
 }
 
 .techInterest {
-  /* margin-left: 50%; */
   position: absolute;
   top: 670px;
   left: 105px;
-  /* top: 10%;
-  left: 10%; */
-  /* margin-top: 9%; */
   background-color: #3a475e;
   width: 650px;
   height: 400px;
   border-radius: 2%;
-  /* border: 5px solid #E4758D; */
-  /* padding: 5px; */
-  /* margin: 20px;  */
   box-shadow: 0 5px 10px rgb(0 0 0 / 0.4);
-  /* margin-right: 7%; */
 }
 
 .aboutPic {
-  /* margin-left: 50%; */
   position: absolute;
   top: 175px;
   left: 105px;
-  /* top: 10%;
-  left: 10%; */
-  /* margin-top: 9%; */
   background-color: #3a475e;
   width: 600px;
   height: 600px;
   border-radius: 2%;
-  /* border: 5px solid #E4758D; */
-  /* padding: 5px; */
-  /* margin: 20px;  */
   box-shadow: 0 5px 10px rgb(0 0 0 / 0.4);
-  /* margin-right: 7%; */
 }
 
 .aboutMe {
-  /* margin-left: 50%; */
   position: absolute;
   top: 175px;
   left: 760px;
-  /* top: 10%;
-  left: 10%; */
-  /* margin-top: 9%; */
   background-color: #3a475e;
   width: 750px;
   height: 600px;
   border-radius: 2%;
-  /* border: 5px solid #E4758D; */
-  /* padding: 5px; */
-  /* margin: 20px;  */
   box-shadow: 0 5px 10px rgb(0 0 0 / 0.4);
-  /* margin-right: 7%; */
 }
 
 .projDesc {
-  /* margin-left: 50%; */
   position: absolute;
   top: 34%;
   left: 48%;
-  /* top: 10%;
-  left: 10%; */
-  /* margin-top: 9%; */
   background-color: #3a475e;
   width: 600px;
   height: 200px;
   border-radius: 2%;
-  /* border: 5px solid #E4758D; */
-  /* padding: 5px; */
-  /* margin: 20px;  */
   box-shadow: 0 5px 10px rgb(0 0 0 / 0.4);
-  /* margin-right: 7%; */
 }
 
 .aboutPic>img {
   border-radius: 2%;
   align-items: center;
-  /* margin-block:inherit; */
-  /* margin: auto;
-  display: block; */
   position: absolute;
-  /* top: 50%;
-  left: 50%; */
   top: 5%;
   left: 5%;
 }
@@ -369,15 +292,9 @@ body {
 }
 
 .resume {
-  /* margin-left: 52%;
-  margin-top: 9%; */
   position: absolute;
   top: 170px;
   left: 830px;
-  /* float:right; */
-  /* top: 1000px; */
-  /* box-shadow: 2px 10px; */
-  /* border: 1px solid black; */
 }
 
 .lang {
@@ -385,23 +302,16 @@ body {
   left: 5%;
   width: 275px;
   height: 310px;
-  /* text-decoration: none; */
 }
 
 .tools {
   position: absolute;
   right: 5%;
-  /* background-color: #dd5e89; */
   width: 275px;
   height: 310px;
 }
 
 .icons {
-  /* padding: 10px; */
-  /* vertical-align: middle; */
-  /* top: 50%; */
-  /* padding-bottom: 50%; */
-  /* text-decoration: none; */
   padding: 13px;
   padding-top: 22%;
   text-align: center;
@@ -417,7 +327,6 @@ body {
 
 .servicePara {
   color: white;
-  /* border: 5px outset #DD5E89; */
   text-align: left;
   margin-left: 2%;
   width: 60%;
@@ -425,10 +334,6 @@ body {
 }
 
 .servicePic {
-  /* border: 5px outset #DD5E89; */
-  /* margin-left: 66%;
-  margin-top: -27.65%; */
-  /* margin-left: 66%; */
   margin-left: 66%;
   margin-top: -22.3%;
   width: 30%;
